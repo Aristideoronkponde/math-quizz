@@ -1,0 +1,7 @@
+<div class="quiz-container">
+    <h1>{{ number1 }} {{ operator }} {{ number2 }}</h1>
+    <p>Donner la réponse :</p>
+    <input [(ngModel)]="userAnswer" type="number">
+    <button (click)="checkAnswer()">Soumettre</button>
+    <p>{{ message }}</p>
+  </div>
